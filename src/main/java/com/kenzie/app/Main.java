@@ -112,6 +112,9 @@ public class Main {
                     System.out.println("Wrong answer, the correct answer is: " + clue.getAnswer() + "\n");
                 }
 
+                //Removes question from the List of Clues after presenting to the user
+                allClues.getClues().remove(randomNum);
+
                 //Increment the question tracker
                 questionCount++;
 
