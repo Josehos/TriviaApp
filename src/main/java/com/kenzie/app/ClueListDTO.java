@@ -5,6 +5,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 
 import java.util.List;
 
+//Used to create a List of Clues
 @JsonPropertyOrder({"clues"})
 public class ClueListDTO {
 

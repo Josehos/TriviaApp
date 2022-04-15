@@ -107,6 +107,7 @@ public class ClueDTO {
         this.id = id;
     }
 
+    //toString to display category and question
     @Override
     public String toString() {
         return "Category= " + category.toString() + "\n" +

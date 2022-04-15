@@ -32,6 +32,7 @@ public class CustomHttpClient {
     }
 
     //TODO: Write sendGET method that takes URL and returns response
+    //GET request
     public static String sendGET(String URLString) {
         HttpClient client = HttpClient.newHttpClient();
         URI uri = URI.create(URLString);

@@ -112,7 +112,7 @@ public class Main {
                     System.out.println("Wrong answer, the correct answer is: " + clue.getAnswer() + "\n");
                 }
 
-                //Removes question from the List of Clues after presenting to the user
+                //Removes question from the List of Clues after presenting to the user to ensure the question is not repeated
                 allClues.getClues().remove(randomNum);
 
                 //Increment the question tracker
